@@ -34,7 +34,7 @@ var imgs = ['images/1.JPG',
     'images/34.JPG',
     'images/35.JPG',
     'images/36.JPG',
-    'images/37.JPG'
+    'images/38.JPG'
 ]
 
 let output = ''
@@ -44,7 +44,7 @@ var docFrag = document.createDocumentFragment();
 
 
 imgs.forEach(function(url) {
-    output += ` <div class="col-lg-3 col-md-4 col-xs-6 thumb"><a class="thumbnail gallery" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="${url}" data-target="#image-gallery"> <img class = "img-thumbnail" src = "${url}" alt = "Another alt text" ></a></div>`
+    output += ` <div class="col-lg-3 col-md-4 col-xs-6 thumb"><a class="thumbnail gallery" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="${url}" data-target="#image-gallery"> <img class = "img-thumbnail" src = "${url}" alt = "Kutyaink" ></a></div>`
 });
 let picture = document.getElementById('kepek')
 picture.innerHTML = output
