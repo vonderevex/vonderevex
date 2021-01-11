@@ -34,7 +34,23 @@ var imgs = ['images/1.JPG',
     'images/34.JPG',
     'images/35.JPG',
     'images/36.JPG',
-    'images/38.JPG'
+    'images/38.JPG',
+    'images/39.JPG',
+    'images/40.JPG',
+    'images/41.JPG',
+    'images/42.JPG',
+    'images/43.JPG',
+    'images/44.JPG',
+    'images/45.JPG',
+    'images/46.JPG',
+    'images/47.JPG',
+    'images/48.JPG',
+    'images/49.JPG',
+    'images/a.JPG',
+    'images/e.JPG',
+    'images/c.JPG',
+    'images/d.JPG',
+    'images/b.JPG'
 ]
 
 let output = ''
@@ -44,7 +60,7 @@ var docFrag = document.createDocumentFragment();
 
 
 imgs.forEach(function(url) {
-    output += ` <div class="col-lg-3 col-md-4 col-xs-6 thumb"><a class="thumbnail gallery" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="${url}" data-target="#image-gallery"> <img class = "img-thumbnail" src = "${url}" alt = "Kutyaink" ></a></div>`
+    output += ` <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-height: "><a class="thumbnail gallery" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="${url}" data-target="#image-gallery"> <img class = "img-thumbnail" src = "${url}" alt = "Kutyaink" ></a></div>`
 });
 let picture = document.getElementById('kepek')
 picture.innerHTML = output
